@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/lcd2.jpg</file>
+        <file>images/logo.png</file>
+        <file>images/offline_32.png</file>
+        <file>images/online_32.png</file>
+        <file>images/wave_theme5.jpg</file>
+        <file>qml/widget/WidgetLog.qml</file>
+        <file>qml/widget/WidgetStandDebug.qml</file>
+        <file>qml/widget/WidgetWaterControl.qml</file>
+        <file>qml/widget/WidgetWaterMeter.qml</file>
+        <file>qml/component/CmpBoard.qml</file>
+        <file>qml/component/CmpFilePopup.qml</file>
+        <file>qml/component/CmpIndicator.qml</file>
+        <file>qml/component/CmpTransparant.qml</file>
+        <file>images/webcam_322.png</file>
+    </qresource>
+</RCC>

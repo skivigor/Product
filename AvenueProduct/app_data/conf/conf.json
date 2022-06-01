@@ -1,0 +1,157 @@
+{
+	"qml":
+    {
+        "mainFile" : "app_data/qml/MainAdmin.qml",
+        "style" : "Fusion"
+    },
+
+    "product":
+    {
+        "mode" : "asc",
+        "list" : [
+            {
+                "mode" : "asc",
+                "name" : "ASC board",
+                "image": "asc.png",
+                "hwType": 257,
+                "box": true,
+                "imei": false,
+                "powerSupplyUsed" : false,
+                "stand" : "app_data/product/stand_asc_i0/",
+                "fw" : "app_data/product/fw_asc/"
+            },
+            {
+                "mode" : "nema",
+                "name" : "Nema board",
+                "image": "nema.png",
+                "hwType": 513,
+                "box": true,
+                "imei": false,
+                "powerSupplyUsed" : true,
+                "stand" : "app_data/product/stand_asc_i0/",
+                "fw" : "app_data/product/fw_nema/"
+            },
+            {
+                "mode" : "jlce",
+                "name" : "JLCE board",
+                "image": "jlce.png",
+                "hwType": 1793,
+                "box": false,
+                "imei": false,
+                "powerSupplyUsed" : true,
+                "stand" : "app_data/product/stand_asc_i0/",
+                "fw" : "app_data/product/fw_jlce/"
+            },
+            {
+                "mode" : "jcc",
+                "name" : "JCC board",
+                "image": "jcc.png",
+                "hwType": 2305,
+                "box": false,
+                "imei": false,
+                "powerSupplyUsed" : false,
+                "stand" : "app_data/product/stand_asc_i0/",
+                "fw" : "app_data/product/fw_jcc/"
+            }
+        ],
+        "productEnabled" : true,
+        "emCalibrateEnabled" : true,
+        "fwLoadEnabled" : true,
+        "fwSelectManual" : false
+    },
+
+    "db":
+    {
+        "dbHost" : "192.168.0.252",
+        "dbPort" : 5432,
+        "dbName" : "jooby",
+        "dbUser" : "admin",
+        "dbPass" : "svet04ka"
+    },
+
+    "wsServer":
+    {
+        "secured" : false,
+        "port" : 65123
+    },
+
+    "wsClient":
+    {
+        "secured" : false,
+        "host" : "192.168.0.252",
+        "port" : 65123
+    },
+	
+	"conf" :
+    {
+        "debug" : false,
+        "adminMode" : true
+    },
+	
+	"uart" :
+    {
+        "port" : "ttyUSB0",
+        "speed" : 57600
+    },
+
+    "stand" :
+    {
+        "uart" : "ttyUSB0",
+        "speed" : 57600
+    },
+
+    "scan" :
+    {
+        "uart" : "ttyACM0",
+        "speed" : 115200
+    },
+
+    "printerServer":
+    {
+        "secured" : false,
+        "port" : 65125,
+        "device" : "/dev/usb/lp1"
+    },
+
+    "printerClient":
+    {
+        "enabled" : true,
+        "secured" : false,
+        "host" : "localhost",
+        "port" : 65125,
+        "label" : [
+            {
+                "name" : "double",
+                "profile" : "godex530_double.txt",
+                "copyNum" : 3
+            },
+            {
+                "name" : "triple",
+                "profile" : "godex530_triple.txt",
+                "copyNum" : 2
+            }
+        ]
+    },
+
+    "power":
+    {
+        "tcp":
+        {
+            "defIp": "192.168.0.248",
+            "defPort": 30000
+        },
+        "settings":
+        {
+            "Umin" : 119,
+            "Umax": 281,
+            "Fmin": 45,
+            "Fmax": 60,
+            "Irms": 1.5,
+            "Irmsmode": "IMM",
+            "Ipeak": 10,
+            "Ipeakmode": "IMM",
+            "Uout": 220,
+            "Fout": 50
+        }
+    }
+}

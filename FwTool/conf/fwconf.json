@@ -1,0 +1,26 @@
+{
+    "firmware": [
+        {
+            "file": "Bootloader_130320114436_v1.5.1.bin",
+            "descr" : "ASC bootloader firmware",
+            "cmdSetVer" : "2D",
+            "cmdGetVer" : "2E",
+            "cmdWrite" : "2F",
+            "cmdCheck" : "30",
+            "cmdLoad" : "35",
+            "cmdLoadState" : "36",
+            "addr" : "08000000"
+        },
+        {
+            "file": "LightLora_130320114347_v1.5.1.bin",
+            "descr" : "ASC main firmware",
+            "cmdSetVer" : "31",
+            "cmdGetVer" : "32",
+            "cmdWrite" : "33",
+            "cmdCheck" : "34",
+            "cmdLoad" : "37",
+            "cmdLoadState" : "38",
+            "addr" : "08003000"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/lcd2.jpg</file>
+        <file>images/logo.png</file>
+        <file>images/offline_32.png</file>
+        <file>images/online_32.png</file>
+        <file>images/wave_theme5.jpg</file>
+        <file>qml/DelegateFirmware.qml</file>
+        <file>qml/WidgetFirmware.qml</file>
+        <file>qml/CmpBoard.qml</file>
+        <file>images/bin_file_48.png</file>
+        <file>images/bin_file_64.png</file>
+        <file>images/icon_error_16.png</file>
+        <file>images/icon_ok_16.png</file>
+    </qresource>
+</RCC>

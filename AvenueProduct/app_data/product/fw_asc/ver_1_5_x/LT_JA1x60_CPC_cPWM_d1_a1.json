@@ -1,0 +1,24 @@
+{
+    "typeId" : 1,
+    "descr" : "JA1x60_CPC_cPWM_d1_a1",
+    "cmd" : "2202020100580201010A0202D2003601B0048C0AA08601007800E001D0025A002003",
+    "config" :
+    {
+        "NumberOfLamps" : 1,
+        "SurgeProtectionIsPresent" : true,
+        "Wattage" : 60,
+        "MinLightOutput" : 10,
+        "WarmUpTime" : 2,
+        "CoolDownTime" : 2,
+        "LowCurrentThreshold" : 0.21,
+        "HighCurrentThreshold" : 0.31,
+        "LowLampVoltageThreshold" : 120,
+        "HighLampVoltageThreshold" : 270,
+        "MaxOperatingHours" : 100000,
+        "LampPowerTolerance" : 12.00,
+        "LampPowerLowThreshold" : 48.00,
+        "LampPowerHighThreshold" : 72.00,
+        "PowerFactorThreshold" : 0.90,
+        "HighTemperatureThreshold" : 80.0
+     }
+}

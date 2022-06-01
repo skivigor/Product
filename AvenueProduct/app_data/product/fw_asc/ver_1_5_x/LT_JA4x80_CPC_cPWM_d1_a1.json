@@ -1,0 +1,24 @@
+{
+    "typeId" : 10,
+    "descr" : "JA4x80_CPC_cPWM_d1_a1",
+    "cmd" : "2202020A00800C04010A020256048606B0048C0AA08601008002000A000F5A002003",
+    "config" :
+    {
+        "NumberOfLamps" : 4,
+        "SurgeProtectionIsPresent" : true,
+        "Wattage" : 320,
+        "MinLightOutput" : 10,
+        "WarmUpTime" : 2,
+        "CoolDownTime" : 2,
+        "LowCurrentThreshold" : 1.11,
+        "HighCurrentThreshold" : 1.67,
+        "LowLampVoltageThreshold" : 120,
+        "HighLampVoltageThreshold" : 270,
+        "MaxOperatingHours" : 100000,
+        "LampPowerTolerance" : 64.00,
+        "LampPowerLowThreshold" : 256.00,
+        "LampPowerHighThreshold" : 384.00,
+        "PowerFactorThreshold" : 0.90,
+        "HighTemperatureThreshold" : 80.0
+     }
+}

@@ -1,0 +1,24 @@
+{
+    "typeId" : 11,
+    "descr" : "JA1x30_CPC_cPWM_d1_a1",
+    "cmd" : "2202020B002C0101010A02026400A000B0048C0AA08601003C00F00068015A002003",
+    "config" :
+    {
+        "NumberOfLamps" : 1,
+        "SurgeProtectionIsPresent" : true,
+        "Wattage" : 30,
+        "MinLightOutput" : 10,
+        "WarmUpTime" : 2,
+        "CoolDownTime" : 2,
+        "LowCurrentThreshold" : 0.10,
+        "HighCurrentThreshold" : 0.16,
+        "LowLampVoltageThreshold" : 120,
+        "HighLampVoltageThreshold" : 270,
+        "MaxOperatingHours" : 100000,
+        "LampPowerTolerance" : 6.00,
+        "LampPowerLowThreshold" : 24.00,
+        "LampPowerHighThreshold" : 36.00,
+        "PowerFactorThreshold" : 0.90,
+        "HighTemperatureThreshold" : 80.0
+     }
+}
